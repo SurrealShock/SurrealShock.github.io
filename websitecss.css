@@ -6,7 +6,6 @@
     color: white;
     outline: none;
     float: left;
-    /* border-color: gray; */
     background: #2D2D2D;
     border-radius: 5px;
     height: 50px;
@@ -15,7 +14,6 @@
     width: 150px;
     border: 2px solid gray;
     transition: 0.3s;
-    -moz-box-sizing: border-box;
 }
 
 .subscribe_button:hover {
