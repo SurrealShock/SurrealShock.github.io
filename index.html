@@ -162,9 +162,10 @@
             <button class="subscribe_button">
                 SUBSCRIBE
             </button>
-            <img onclick="gotoLink('https://www.facebook.com')" src="Images/facebook.svg" style="float: right; height: 40px; cursor: pointer;">
-            <img onclick="gotoLink('https://www.instagram.com')" src="Images/instagram.svg" style="float: right; height: 40px; margin-left: 10px; margin-right: 4px; cursor: pointer;">
-            <img onclick="gotoLink('https://www.twitter.com')" src="Images/twitter.svg" style="float: right; height: 40px; cursor: pointer;">
+            <img onclick="window.open('https://www.facebook.com', '_blank');" src="Images/facebook.svg" style="float: right; height: 40px; cursor: pointer;">
+            <img onclick="window.open('https://www.instagram.com', '_blank');" src="Images/instagram.svg" style="float: right; height: 40px; margin-left: 16px; margin-right: 16px; cursor: pointer;">
+            <img onclick="window.open('https://www.twitter.com', '_blank');" src="Images/twitter.svg" style="float: right; height: 40px; cursor: pointer; margin-left: 16px;">
+            <img onclick="window.open('https://www.youtube.com', '_blank');" src="Images/youtube.svg" style="float: right; height: 40px; cursor: pointer;">            
         </div>
         <div style="background-color: gray; width: 80%; height: 1px; margin-top: 25px; margin-left: auto; margin-right: auto;"></div>
         <div style="margin-top: 25px; width: 80%; margin-left: auto; margin-right: auto; color: gray;">
@@ -196,8 +197,3 @@
     </div>
 </div>
 
-<script>
-    function gotoLink(link) {
-        window.open(link, '_blank');
-    }
-</script>
